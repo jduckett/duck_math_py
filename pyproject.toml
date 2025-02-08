@@ -1,0 +1,22 @@
+[project]
+name = "duck-math-py"
+version = "0.2.0"
+description = "This is a test library to learn workflow tools for python code."
+authors = [
+    {name = "Jeff Duckett",email = "jeff.duckett@gmail.com"}
+]
+license = {text = "MIT"}
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "pendulum (>=3.0.0,<4.0.0)"
+]
+
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.4"
+
